@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <title>Jeu du Juste Prix</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container_content">
+            <h1 class="container_content_titre">La console a choisi un nombre aléatoire entre 0 et 100</h1>
+
+            <div class="container_content_jeu">
+                <h2 class="container_content_reponse" id="reponse">Essaie de le deviner ! Tu as 10 essais</h2>
+    
+                <div class="container_content_valeur-nbre" id="form" role="form">
+                    <input id="input" type="text" placeholder="Entrez un nombre" autocomplete="off">
+                    <button class="btn btn-valider"id="valider" onclick="ecouterNombre()">Valider !</button>
+    
+                    <div class="container_content_essais" id="bloc-essais">
+                        <p class="essais">
+                            Essais restants : 
+                            <span id="nombre-essais"></span>
+                        </p>
+                    </div>
+
+                    <div class="container_content_rejouer" id="bloc-rejouer">
+                        <button class="btn btn-rejouer" id="rejouer" onclick="rejouer()">Rejouer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

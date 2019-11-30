@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.container {
+    align-items: center;
+    background-color: grey;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.container_content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(0, 0, 0, .6);
+    padding: 20px 0;
+    width: 1140px;
+}
+
+.btn {
+    background-color: #006aab;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 0.7rem;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-valider {
+    margin-left: 1rem;
+}
+
+.btn-rejouer {
+    font-size: 1.5rem;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+::-moz-input-placeholder {
+    color: #999;
+}
+
+::-ms-input-placeholder {
+    color: #999;
+}
+
+.container_content_titre {
+    font-size: 2.8rem;
+}
+
+.container_content_reponse {
+    font-size: 2rem;
+}
+
+.container_content_valeur-nbre input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.container_content_valeur-nbre input:focus {
+    outline: none;
+}
+
+.container_content_essais {
+    font-size: 1.5rem;
+}
+
